@@ -1,0 +1,720 @@
+html{  
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: sans-serif
+}
+/*team swiper*/
+.swiper-container {
+      width: 100%;
+      padding-top:150px;
+      padding-bottom:150px;
+   
+    }
+.swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 250px;
+      height: 250px;
+        
+    }
+.swiper-slide .imgBx{
+    width:100%;
+    height: 100%
+}
+.swiper-slide .details{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    text-transform: capitalize;
+}
+.swiper-slide .details span{
+    color:#00a3cc
+}
+/*services descriptions*/
+.container-fluid{
+    background-image: url(images/000000.png);
+    background-size:cover
+}
+.wDesign h2{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    opacity: 0.5;
+    background:rgba(225,225,225,0.5);
+    padding:30px 0px;
+    color: black;
+    margin-bottom:0px
+}
+.wDesign{padding: 30px  30px 0px  30px}
+.eCom{
+    color: black;
+    margin-bottom: 2px;
+    background:rgba(240, 240, 240,0.9);
+}
+.eCom .col-lg-4 ,.eCom .col-lg-2{
+  
+    padding: 15px 
+}
+
+.wDesign h3 {
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    letter-spacing:2px;
+    padding:5px 0px 0px 5px
+}
+.ecomTxt , .rsiteTxt , .rsignTxt , .dsiteTxt, .wmanageTxt{
+    color:#005266;
+    display: none;
+}
+.wDesign p{
+    letter-spacing:2px;
+    opacity: 0.7;
+    text-align: center
+}
+.digitalMarket h2{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    opacity: 0.6;
+    background-color:rgba(0,0,0);
+    padding:30px 0px;
+    color: white;
+    margin-bottom:0px
+}
+.digitalMarket{
+    padding: 0px 30px 0px  30px;
+    color:white;
+    letter-spacing: 2px;
+    
+}
+.digitalMarket .txt{
+    padding-top: 20px
+}
+.digitalMarket .row{
+     background:rgba(0,0,0,0.9);
+    padding: 20px
+}
+.digitalMarket h3{
+     margin-bottom: 30px
+}
+.digitalMarket i{
+     color:#00a3cc;
+    opacity: 1;
+    text-transform:capitalize
+}
+.digitalMarket p{
+    opacity: 0.9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter
+}
+.Gdesign h2{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    opacity: 0.5;
+    background:rgba(225,225,225,0.6);
+    padding:30px 0px;
+    color: black;
+    margin-bottom:0px
+}
+.Gdesign{
+padding: 1px  30px 0px  30px;
+    margin-bottom:50px;}
+.Gdesign .row{
+    background:rgba(240, 240, 240,0.9);
+    padding: 20px 10px
+}
+.col-lg-12{line-height: 40px;padding: 30px}
+.col-lg-12 h3{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-align: center;
+  padding-top: 40px;
+    
+}
+.col-lg-12 p{margin-left: 20px;margin-right: 20px;text-align: center}
+.p1{
+    color:black;
+    opacity: 1;
+    text-transform:capitalize;
+    font-size: 20px;
+    font-style: italic;
+}
+.p2{
+    opacity: 0.8;
+    color:#005266;
+    text-transform:capitalize;
+    font-size: 22px;
+    font-style: italic;
+   
+}
+.rounded-circle {
+    box-shadow: 0px 0px 8px rgba(0, 143, 200,1);
+}
+.my-logo h3{
+    font-size: 20px;
+    font-style: oblique;
+    padding: 15px
+}
+.my-logo .col-lg-4{
+    text-align: center
+}
+
+.about-team .row{
+    background: rgba(255,255,255,0.6);
+        padding-bottom: 80px;
+    padding-top: 80px
+}
+
+.optimise :hover , .mmanage :hover ,  .mmarket :hover {  
+    animation-name: sEoo;
+    animation-duration: 3s;
+    animation-iteration-count: 1;}
+
+@keyframes sEoo{
+    from {
+        box-shadow: 0px 0px 0px rgba(255,255,255,0.2); }
+  to { 
+      background:rgba(0,0,0,0.7);
+       box-shadow: 0px 0px 8px rgba(255,255,255,0.5);}
+}
+/*text animations*/
+.ecomTxt ,.rsiteTxt , .rsignTxt , .dsiteTxt, .wmanageTxt{
+     animation-name: ecom;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+   
+}
+@keyframes ecom{
+    from { transform: translatey(+30%);}
+  to { transform: translateX(0%);}
+}
+
+.animateMe{
+    animation-name: anime1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes anime1{
+    from { transform: translateX(+100%);}
+  to { transform: translateX(0%);}
+}
+/*footer animations*/
+/*.siteMap , .servo , .Note , .contacts{
+    animation-name: sMap;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+@keyframes sMap{
+    from { opacity:0;}
+    to { opacity: 0.1;}
+    to { opacity:0.2;}
+    to { opacity: 0.3;}
+    to { opacity: 0.4;}
+    to { opacity:0.5;}
+    to { opacity: 0.6;}
+    to { opacity: 0.7;}
+    to { opacity:0.8;}
+    to { opacity: 0.9;}
+    to { opacity: 1;}
+}*/
+
+/* section1*/
+.service-hint{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+ .service-hint h3{
+    text-align: center; 
+     font-family:sans-serif;
+     text-transform: capitalize;
+     letter-spacing: 2px
+}
+.icon-txt{
+    margin: 5px 0px 10px;
+    text-align: center;
+    font-family:sans-serif;
+     text-transform: capitalize;
+     letter-spacing: 2px
+}
+
+.web-develop ,.brand-design , .digital-mark {
+  padding: 20px ;
+   text-align: center;
+    margin-bottom: 20px
+}
+
+.about-us{
+ background-image: url(images/000000.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  padding: 50px 0px;
+    line-height: 30px;
+}
+
+.my-txt{
+    padding:10px;
+    letter-spacing:2px;
+    font-size: 20px;
+    font-family:sans-serif;
+    text-shadow:0px 0px 20px #9c9c9c;
+    text-transform:capitalize;
+     color:#000000;
+    text-align: center;
+    background: rgba(255,255,255,0.5);
+    
+}
+.my-txt i{
+    color:#005266;
+    
+}
+/* section2 */
+.services{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin:80px 0px;
+   background: rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+}
+.services a{
+    color: white
+}
+.services a:hover{
+    color: black;
+    text-decoration:none;
+    text-transform: uppercase;
+    
+}
+.intro{
+    background-color: #00a3cc;
+    padding: 10px;
+    margin: -40px 20px 0px 20px;
+   color: white;
+}
+.intro h4{
+    padding-left: 40px
+}
+.intro p{
+    padding-left: 40px
+}
+.intro .col-md-3{
+    padding:20px 0px 0px 10px;
+   text-align: center ;
+    
+}
+
+.intro .col-md-4{
+   padding:20px 0px 0px 10px;
+    text-align: center;
+    
+}
+
+
+/* footer */
+.myForm{
+    margin-top: 100;
+    margin-bottom: 100px
+}
+input[type=text],  textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=email]{
+     width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #00a3cc;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+    box-shadow: 0px 0px 8px rgba(255,255,255,0.8);
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  animation-name: submt; 
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+@keyframes submt{
+    from{background-color: #00a3cc;}
+    to{background: rgba(77, 77, 77,1);
+     box-shadow: 0px 0px 8px rgba(77,77,77,1);}
+}
+label{
+    font-size: 20px; 
+}
+input , textarea{
+    box-shadow:0px 0px 8px rgba(0,0,0,0.5)
+}
+.my-footer h2{
+    text-transform: capitalize;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+.my-footer h2 span{
+    font-size: 15px;
+    opacity: 0.7;
+    text-transform: capitalize;
+    font-style: oblique;
+    font-family: cursive
+}
+.my-footer em{
+    color: black;
+    opacity: 0.8
+}
+.my-footer {
+ background-color:#4d4d4d;
+ color:white;
+letter-spacing: 1px;
+padding-top: 30px;
+
+
+}
+.my-footer li{
+    line-height: 40px;
+    text-transform: capitalize;
+    
+}
+.my-footer a {
+  color:white;
+}
+
+.my-footer a:hover {
+  color:#1aa3ff;
+}
+
+.my-footer h4 {
+    font-size: 15px;
+ color:  black;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 30px 0 20px;
+    opacity: 0.9;
+}
+
+.servo , .Note {
+    padding-top: 50px
+}
+/*.my-footer .social-list {
+  overflow: hidden;
+  margin: 20px 0 10px;
+}
+
+.my-footer .social-list  {
+ 
+  opacity: 0.7;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.my-footer .soical-list :hover {
+  opacity: 1;
+  
+}*/
+.material-icons{color:white}
+.glyphicon{color:white}
+footer h4{display:inline}
+.my-footer a:hover{
+    color: black;
+    text-decoration: none
+}
+.my-footer .copyright {
+  padding: 15px 0px;
+  background-color: #0d0d0d;
+  margin-top: 60px;
+  font-size: 15px;
+    text-align: center
+}
+
+.copyright .CR{
+    padding-top: 20px
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+   border-radius:50%;
+    box-shadow: 0px 0px 8px rgba(128,128,128,0.5)
+}
+
+.fa-facebook:hover {
+  background: #3B5998;
+  color: white;
+    text-decoration: none;
+}
+
+.fa-twitter:hover {
+  background: #55ACEE;
+  color: white;
+    text-decoration: none;
+}
+
+.fa-instagram:hover {
+  background: linear-gradient(to bottom, #33ccff 0%, #9900cc 100%);
+  color: white;
+    text-decoration: none;
+}
+
+.fa-linkedin:hover {
+  background: #007bb5;
+  color: white;
+    text-decoration: none;
+}
+
+/*video header*/
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+/*header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}*/
+
+
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+ 
+  z-index: 1;
+}
+.navbar a{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;   
+    font-weight: bold;
+}
+.navbar-collapse li{
+   
+        background:rgba(255,255,255,1);
+    margin: 1px;
+    text-align: center
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+/*sticky navbar*/
+.my-stick-nav {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+  background: #fff !important;
+}
+
+.my-stick-nav .navbar-nav > li > a {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+
+        @media only screen and (max-width: 767px) {
+  .navbar.my-stick-nav .navbar-toggle {
+    border: 1px solid #dedede;
+  }
+  .navbar.my-stick-nav.navbar-toggle span {
+    background: #000;
+  }
+  .navbar.my-stick-nav .navbar-nav > li > a {
+    padding: 8px 9px;
+  }
+  .navbar .navbar-toggle {
+    border: 1px solid #fff;
+  }
+  .navbar .navbar-toggle span {
+    background: #fff;
+  }
+
+  /* header vid*/ 
+ @media (max-width: 800px){
+     header{
+         height:50px;
+     }
+         
+ }
+ /*navbar dropdown*/ 
+ @media (min-width: 992px) {
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  100% {
+    transform:translateY(0rem);
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+/* footer adjusting*/
+     @media only screen and (max-width: 575px) {
+  .my-footer {
+   text-align: center;
+   }
+        
+    }
+/*aboutus*/
+    @media only screen and (max-width: 1023px) {
+  .about-us {
+   background-size: cover
+   } }
+    
+          
+     @media only screen and (max-width: 300px) {
+  .wDesign h2 {
+   font-size: 30px;
+   }
+  .intro p{
+      text-align:center; 
+      padding-left: 0px;
+         } 
+  .wDesign h3{
+        font-size: 20px     
+         }
+.my-txt{
+    font-size: 17px
+         }
+.digitalMarket h3 {
+   font-size: 20px;
+    text-align: center
+   }
+.digitalMarket p {
+   font-size: 15px;
+    text-align: center
+   }
+.digitalMarket .txt {
+  padding: 0;
+ 
+   }
+Gdesign h2 {
+   font-size: 22px;
+   }
+.Gdesign h3 {
+   font-size: 20px;
+   }
+ .Gdesign p {
+   font-size: 12px;
+     
+   }
+ .rounded-circle{
+    width:170px;
+     height: 170px
+         }
+ }
+
+  @media only screen and (max-width: 240px) {
+  .digitalMarket h2 {
+   font-size: 25px;
+   }
+.Gdesign h2 {
+   font-size: 20px;
+   }
+.Gdesign h3 {
+   font-size: 18px;
+   }
+ .Gdesign p , .p1 , .p2{
+   font-size: 15px;
+   }
+      .rounded-circle{
+    width:120px;
+     height: 120px
+         }
+} 
+            
+@media only screen and (max-width: 460px) {
+ .map iframe {
+   height: 200px;
+     width: 300px
+   }
+}
+            
+@media only screen and (max-width: 460px) {
+ .map iframe {
+   height: 150px;
+     width: 250px
+   }
+}
